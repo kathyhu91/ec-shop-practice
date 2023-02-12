@@ -1,66 +1,74 @@
+// 引入影像
+
+import { ReactComponent as SvgSearch } from "../image-resource/icons/search.svg";
+import { ReactComponent as SvgToggle } from "../image-resource/icons/toggle.svg";
+import { ReactComponent as SvgCart } from "../image-resource/icons/cart.svg";
+// import { ReactComponent as SvgMoon } from "../image-resource/icons/moon.svg";
+import { ReactComponent as SvgSun } from "../image-resource/icons/sun.svg";
+import { ReactComponent as SvgLogo } from "../image-resource/icons/logo.svg";
+
 
 export default function header() {
     return (
-      <header class="site-header">
-    <div class="header-container mx-auto">
+      <header className="site-header">
+    <div className="header-container mx-auto">
       {/* <!-- navbar-toggle --> */}
-      <input id="navbar-toggle" class="navbar-toggle" type="checkbox" />
-      <label for="navbar-toggle" class="burger-container">
-        {/* <svg class="icon-toggle cursor-point">
-          <use xlink:href="#svg-icon-toggle"></use>
-        </svg> */}
+      <input id="navbar-toggle" className="navbar-toggle" type="checkbox" />
+      <label for="navbar-toggle" className="burger-container">
+        <svg className="icon-toggle cursor-point">
+         <SvgToggle/>
+        </svg>
       </label>
 
       {/* <!-- navbar-menu --> */}
       <nav class="navbar-menu">
-        <ul class="nav-list site-menu-list mr-auto">
-          <li class="nav-item">
-            <a class="nav-link" href="#">男款</a>
+        <ul className="nav-list site-menu-list mr-auto">
+          <li className="nav-item">
+            <a className="nav-link" href="#">男款</a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">女款</a>
+          <li className="nav-item">
+            <a className="nav-link" href="#">女款</a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">最新消息</a>
+          <li className="nav-item">
+            <a className="nav-link" href="#">最新消息</a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">客製商品</a>
+          <li className="nav-item">
+            <a className="nav-link" href="#">客製商品</a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">聯絡我們</a>
+          <li className="nav-item">
+            <a className="nav-link" href="#">聯絡我們</a>
           </li>
         </ul>
-        <ul class="nav-list site-action-list">
+        <ul className="nav-list site-action-list">
           {/* <!-- search --> */}
-          <li class="nav-item">
-            {/* <svg class="nav-icon cursor-point">
-              <use xlink:href="#svg-icon-search"></use>
-            </svg> */}
+          <li className="nav-item">
+            <svg className="nav-icon cursor-point">
+            <SvgSearch/>
+            </svg>
           </li>
           {/* <!-- cart --> */}
-          <li class="nav-item">
-            {/* <svg class="nav-icon cursor-point">
-              <use xlink:href="#svg-icon-cart"></use>
-            </svg> */}
+          <li className="nav-item">
+            <svg className="nav-icon cursor-point">
+            <SvgCart/>
+            </svg>
           </li>
-          <li id="theme-toggle" class="nav-item">
+          <li id="theme-toggle" className="nav-item">
             {/* <!-- moon --> */}
-            {/* <svg class="nav-icon cursor-point">
-              <use xlink:href="#svg-icon-moon"></use>
+            {/* <svg className="nav-icon cursor-point">
+            <SvgMoon/>
             </svg> */}
             {/* <!-- sun --> */}
-            {/* <svg class="nav-icon cursor-point">
-              <use xlink:href="#svg-icon-sun"></use>
-            </svg> */}
+            <svg className="nav-icon cursor-point">
+            <SvgSun/>
+            </svg>
           </li>
         </ul>
       </nav>
-
       {/* <!-- logo --> */}
-      <a class="header-logo-container" href="#">
-        {/* <svg class="icon-logo cursor-point">
-          <use xlink:href="#svg-icon-logo"></use>
-        </svg> */}
+      <a className="header-logo-container" href="#">
+        <svg className="icon-logo cursor-point">
+        <SvgLogo/>
+        </svg>
       </a>
     </div>
   </header>

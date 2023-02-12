@@ -4,7 +4,7 @@ import RegisterFormcreditCard from './registerFormCreditCard'
 
 export default function registerForm() {
     return (
-<section class="form-container col col-12">
+<section className="form-container col col-12">
           <RegisterFormAddress/>
           <RegisterFormShipping/>
           <RegisterFormcreditCard/>

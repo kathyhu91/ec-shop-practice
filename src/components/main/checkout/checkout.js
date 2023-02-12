@@ -4,10 +4,10 @@ import Cart from './cart/cart.js'
 
 export default function checkout() {
     return (
-<div>
+<>
     <Register/>
-    <ProgressControl/>
     <Cart/>
-    </div>
+    <ProgressControl/>
+    </>
     )
 }

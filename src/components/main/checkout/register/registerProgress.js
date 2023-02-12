@@ -1,37 +1,38 @@
-export default function registerProcess() {
-    
-return(
-    <section class="progress-container col col-12">
-            <span class="progress-group" data-phase="address">
-              <span class="progress-icon">
-                <span class="text">1</span>
-                {/* <svg class="icon cursor-point">
-                  <use xlink:href="#svg-icon-pg-complete"></use>
-                </svg> */}
+import { ReactComponent as SvgPgComplete } from "../../../../image-resource/icons/pg-complete.svg";
+
+export default function registerProcess() { 
+  return(
+      <section className="progress-container col col-12">
+              <span className="progress-group" data-phase="address">
+                <span className="progress-icon">
+                  <span className="text">1</span>
+                  <svg className="icon cursor-point">
+                  <SvgPgComplete/>
+                  </svg>
+                </span>
+                <span className="progress-label">寄送地址</span>
               </span>
-              <span class="progress-label">寄送地址</span>
-            </span>
-            <span class="progress-bar" data-order="1"></span>
-            <span class="progress-group" data-phase="shipping">
-              <span class="progress-icon">
-                <span class="text">2</span>
-                {/* <svg class="icon cursor-point">
-                  <use xlink:href="#svg-icon-pg-complete"></use>
-                </svg> */}
+              <span className="progress-bar" data-order="1"></span>
+              <span className="progress-group" data-phase="shipping">
+                <span className="progress-icon">
+                  <span className="text">2</span>
+                  <svg className="icon cursor-point">
+                  <SvgPgComplete/>
+                  </svg>
+                </span>
+                <span className="progress-label">運送方式</span>
               </span>
-              <span class="progress-label">運送方式</span>
-            </span>
-            <span class="progress-bar" data-order="2"></span>
-            <span class="progress-group" data-phase="credit-card">
-              <span class="progress-icon">
-                <span class="text">3</span>
-                {/* <svg class="icon cursor-point">
-                  <use xlink:href="#svg-icon-pg-complete"></use>
-                </svg> */}
+              <span className="progress-bar" data-order="2"></span>
+              <span className="progress-group" data-phase="credit-card">
+                <span className="progress-icon">
+                  <span className="text">3</span>
+                  <svg className="icon cursor-point">
+                  <SvgPgComplete/>
+                  </svg>
+                </span>
+                <span className="progress-label">付款資訊</span>
               </span>
-              <span class="progress-label">付款資訊</span>
-            </span>
-          </section>
-)
-    
-}
+            </section>
+  )
+      
+  }
