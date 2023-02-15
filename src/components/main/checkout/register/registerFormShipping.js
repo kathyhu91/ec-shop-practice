@@ -4,8 +4,8 @@ export default function registerFormShipping() {
 <form className="col col-12" data-phase="shipping">
           <h3 className="form-title">運送方式</h3>
           <section className="form-body col col-12">
-            <label className="radio-group col col-12" data-price="0">
-              <input id="shipping-standard" type="radio" name="shipping" checked />
+            <label className="radio-group col col-12" data-price="0" htmlFor="shipping-standard">
+              <input id="shipping-standard" type="radio" name="shipping" defaultChecked />
               <div className="radio-info">
                 <div className="col col-12">
                   <div className="text">標準運送</div>
@@ -15,7 +15,7 @@ export default function registerFormShipping() {
               </div>
               <div className="radio-box-border"></div>
             </label>
-            <label className="radio-group col col-12" data-price="500">
+            <label className="radio-group col col-12" data-price="500" htmlFor="shipping-dhl">
               <input id="shipping-dhl" type="radio" name="shipping" />
               <div className="radio-info">
                 <div className="col col-12">

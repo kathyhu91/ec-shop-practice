@@ -14,14 +14,14 @@ export default function header() {
     <div className="header-container mx-auto">
       {/* <!-- navbar-toggle --> */}
       <input id="navbar-toggle" className="navbar-toggle" type="checkbox" />
-      <label for="navbar-toggle" className="burger-container">
+      <label htmlFor="navbar-toggle" className="burger-container">
         <svg className="icon-toggle cursor-point">
          <SvgToggle/>
         </svg>
       </label>
 
       {/* <!-- navbar-menu --> */}
-      <nav class="navbar-menu">
+      <nav className="navbar-menu">
         <ul className="nav-list site-menu-list mr-auto">
           <li className="nav-item">
             <a className="nav-link" href="#">男款</a>
