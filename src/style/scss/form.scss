@@ -1,9 +1,10 @@
+@import './base.scss';
 @mixin input-width($prefix, $division) {
     $form-full-width: 540;
 
     @for $index from 1 to ($division + 1) {
         .#{$prefix}-#{$index} {
-            width:100% * (($index * 65 + ($index - 1) * 30) / $form-full-width);
+            width: 100% * (($index * 65 + ($index - 1) * 30) / $form-full-width);
         }
     }
 }

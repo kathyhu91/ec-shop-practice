@@ -1,9 +1,9 @@
  // 匯入SVG
- import { ReactComponent as SvgMinus } from "../../../../image-resource/icons/minus.svg";
- import { ReactComponent as SvgPlus } from "../../../../image-resource/icons/plus.svg";
+ import { ReactComponent as SvgMinus } from "../../../../assets/icons/minus.svg";
+ import { ReactComponent as SvgPlus } from "../../../../assets/icons/plus.svg";
 
 //  匯入data
-import cartData from "./cartData.js";
+import cartData from "../../../../data/cartData.js";
 
 // 統計
 

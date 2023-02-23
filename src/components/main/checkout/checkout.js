@@ -1,6 +1,6 @@
-import Register from './register/register.js'
-import ProgressControl from './progressControl.js' 
-import Cart from './cart/cart.js'
+import Register from './Register/Register.js'
+import ProgressControl from './ProgressControl.js' 
+import Cart from './Cart/Cart.js'
 
 export default function checkout() {
     return (

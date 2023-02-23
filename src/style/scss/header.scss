@@ -1,3 +1,4 @@
+@import './base.scss';
 $header-menu-item-margin-x: 16px;
 $header-action-item-margin-x: 15px;
 
@@ -91,7 +92,7 @@ nav.navbar-menu {
     position: absolute;
     left: 0;
     right: 0;
-    margin: 0 auto;
+    margin:  auto;
     height: var(--header-height);
     width: var(--header-logo-width);
 }

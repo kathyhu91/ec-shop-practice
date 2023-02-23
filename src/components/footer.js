@@ -1,7 +1,7 @@
-import { ReactComponent as SvgLogo } from "../image-resource/icons/logo.svg";
-import { ReactComponent as SvgFacebook } from "../image-resource/icons/facebook.svg";
-import { ReactComponent as SvgInstagram } from "../image-resource/icons/instagram.svg";
-import { ReactComponent as SvgWhatsapp } from "../image-resource/icons/whatsapp.svg";
+import { ReactComponent as SvgLogo } from "../assets/icons/logo.svg";
+import { ReactComponent as SvgFacebook } from "../assets/icons/facebook.svg";
+import { ReactComponent as SvgInstagram } from "../assets/icons/instagram.svg";
+import { ReactComponent as SvgWhatsapp } from "../assets/icons/whatsapp.svg";
 
 export default function Footer() {
     return (

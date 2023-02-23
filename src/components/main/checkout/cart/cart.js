@@ -1,5 +1,5 @@
-import CartContent from "./cartContent.js"
-import CartStatistics from "./cartStatistics.js"
+import CartContent from "./CartContent.js"
+import CartStatistics from "./CartStatistics.js"
 
 
 export default function cart(){

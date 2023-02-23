@@ -1,4 +1,4 @@
-import { ReactComponent as SvgPgComplete } from "../../../../image-resource/icons/pg-complete.svg";
+import { ReactComponent as SvgPgComplete } from "../../../../assets/icons/pg-complete.svg";
 
 export default function registerProcess() { 
   return(

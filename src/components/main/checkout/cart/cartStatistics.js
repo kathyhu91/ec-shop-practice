@@ -1,5 +1,5 @@
 //  匯入data
-import cartData from "./cartData.js"
+import cartData from "../../../../data/cartData.js";
 
 let deliveryFee = calculatePrice(cartData)>1000? 0:60
 

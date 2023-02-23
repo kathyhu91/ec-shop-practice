@@ -1,6 +1,6 @@
 // 匯入
-import RegisterProcess from './registerProgress.js'
-import RegisterForm from './registerForm.js'
+import RegisterProcess from './RegisterProgRess.js'
+import RegisterForm from './RegisterForm.js'
 
 // 匯出
 export default function registerForm() {

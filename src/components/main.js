@@ -1,4 +1,4 @@
-import Checkout from './main/checkout/checkout.js'
+import Checkout from './Main/Checkout/Checkout.js'
 
 
 export default function main() {
