@@ -1,6 +1,6 @@
 // 匯入
-import RegisterProcess from "./RegisterProgRess.jsx";
-import RegisterForm from "./RegisterForm.jsx";
+import RegisterProcess from "components/Main/Checkout/Register/RegisterProgRess.jsx";
+import RegisterForm from "components/Main/Checkout/Register/RegisterForm.jsx";
 
 // 匯出
 function registerForm() {

@@ -8,7 +8,6 @@ import Main from 'components/Main.jsx'
 import Footer from 'components/Footer.jsx'
 
 // 匯入CSS
-import "style/css/reset.css";
 import "style/css/main.css"
 
 

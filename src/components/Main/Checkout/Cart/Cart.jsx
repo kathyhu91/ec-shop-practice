@@ -1,5 +1,5 @@
-import CartContent from "./CartContent.jsx";
-import CartStatistics from "./CartStatistics.jsx";
+import CartContent from "components/Main/Checkout/Cart/CartContent.jsx";
+import CartStatistics from "components/Main/Checkout/Cart/CartStatistics.jsx";
 
 export default function cart() {
   return (
