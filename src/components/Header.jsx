@@ -7,7 +7,7 @@ import { ReactComponent as SvgCart } from "assets/icons/cart.svg";
 import { ReactComponent as SvgSun } from "assets/icons/sun.svg";
 import { ReactComponent as SvgLogo } from "assets/icons/logo.svg";
 
-export default function header() {
+function Header() {
   return (
     <header className="site-header">
       <div className="header-container mx-auto">
@@ -83,3 +83,5 @@ export default function header() {
     </header>
   );
 }
+
+export default Header;

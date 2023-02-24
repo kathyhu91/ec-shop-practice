@@ -1,5 +1,5 @@
-// 匯出
-export default function registerFormShipping() {
+// 傳遞值：運費、運費選取事件
+function RegisterFormShipping() {
   return (
     <form className="col col-12" data-phase="shipping">
       <h3 className="form-title">運送方式</h3>
@@ -43,3 +43,5 @@ export default function registerFormShipping() {
     </form>
   );
 }
+
+export default RegisterFormShipping;
