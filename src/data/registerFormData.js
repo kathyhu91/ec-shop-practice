@@ -35,6 +35,23 @@ const registerFormData = {
       { value: "KMN", name: "金門縣" },
       { value: "LNN", name: "連江縣" },
     ],
+    shipping : [
+        {
+          id: 'shippingStandard',
+          value: 'standard',
+          label: '標準運送',
+          price: 0,
+          direction: '約 3~7 個工作天'
+        }, {
+          id: 'shippingDhl',
+          value: 'DHL',
+          label: 'DHL 貨運',
+          price: 500,   
+          direction: '48小時內送達'
+        }
+      ]
   };
+
+  
 
   export default registerFormData

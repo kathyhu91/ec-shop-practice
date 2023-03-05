@@ -1,4 +1,6 @@
-import { useState } from "react";
+import { useContext } from 'react'
+import { CartContext } from 'context/CartContext.js'
+
 // 結帳流程
 import RegisterProcess from "components/Main/Checkout/Register/RegisterProgRess.jsx";
 // 結帳表格:地址、運費、付款
@@ -9,9 +11,8 @@ import RegisterFormCreditCard from "components/Main/Checkout/Register/RegisterFo
 import ProgressControl from "components/Main/Checkout/Register/ProgressControl.jsx";
 
 function Register() {
-  // 傳遞值：data-phase的值、切換步驟事件
-  // 定義會狀態變化的值，進行初始化useState：階段數值，預設為1
-  const [phaseNum, setPhaseNum] = useState(1);
+  
+  const [phaseNum, setPhaseNum] = useContext(CartContext).phase;
 
   return (
     <>
@@ -37,4 +38,3 @@ function Register() {
 }
 export default Register;
 
-//  <RegisterFormShipping />會連動到 運費、運費選取事件，未做
